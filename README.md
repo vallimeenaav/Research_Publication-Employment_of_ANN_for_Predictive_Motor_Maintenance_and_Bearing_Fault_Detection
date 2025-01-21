@@ -77,4 +77,53 @@ Industrial motors, particularly induction motors, experience significant wear an
 ## Results
 ### Performance Metrics
 - **Accuracy**: >99.99% on the test dataset.
-- **Confusion Matrix**: 
+- **Confusion Matrix**:
+Healthy  | Unhealthy
+16       |     0
+0        |    20
+- 100% precision, recall, and F1 score.
+
+### Deployment Impact
+- **Training Time**:
+- **Raspberry Pi**: 1.3 minutes.
+- **Desktop**: 50 seconds.
+- **Cloud (Google Colab)**: 36 seconds.
+- **Real-world Integration**:
+- Low-cost deployment.
+- Suitable for remote industrial sites with limited resources.
+
+---
+
+## Applications
+This project demonstrates significant potential in:
+- **Industrial Automation**: Ensures uninterrupted operations by predicting faults before they occur.
+- **Cost Efficiency**: Reduces the need for full-scale shutdowns and maintenance cycles.
+- **Edge Computing**: Demonstrates the feasibility of deploying AI models on low-resource devices.
+
+---
+
+## How to Use
+Although the dataset and code are classified, the following resources are available:
+1. **Final_Report.pdf**: Detailed explanation of the methodology and implementation.
+2. **Park Vector Plots**: Example visuals to understand the input-output relationship.
+3. **Hardware Guide**: Step-by-step setup for deploying ANN models on Raspberry Pi.
+
+For further inquiries, feel free to reach out through the repository's contact section.
+
+---
+
+## Acknowledgments
+This project was made possible through the collaborative efforts of:
+- **Vellore Institute of Technology, India**
+- **Universiti Teknologi PETRONAS, Malaysia**
+
+Special thanks to our advisors:
+- Dr. Sujatha R.
+- Dr. Madiah Omar.
+
+---
+
+## License
+This project is licensed under the **MIT License**.
+
+

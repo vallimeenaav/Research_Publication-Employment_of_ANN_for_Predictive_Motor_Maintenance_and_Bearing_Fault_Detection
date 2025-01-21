@@ -1,0 +1,1 @@
+# Research_Publication-Employment_of_ANN_for_Predictive_Motor_Maintenance_and_Bearing_Fault_Detection

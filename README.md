@@ -78,9 +78,12 @@ Industrial motors, particularly induction motors, experience significant wear an
 ### Performance Metrics
 - **Accuracy**: >99.99% on the test dataset.
 - **Confusion Matrix**:
-Healthy  | Unhealthy
-16       |     0
-0        |    20
+  
+| Healthy   | Unhealthy |
+|-----------|-----------|
+| 16        | 0         |
+| 0         | 20        |
+
 - 100% precision, recall, and F1 score.
 
 ### Deployment Impact
